@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: react-ci-cd-actions
+        working-directory: ./react-ci-cd-actions
 
     steps:
       - name: Checkout repository
